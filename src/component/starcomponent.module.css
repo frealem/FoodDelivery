@@ -1,0 +1,8 @@
+.rating{
+    display: flex;
+    flex-wrap: nowrap;
+    color:rgb(23, 1, 1);
+}
+.rating i{
+    color:orangered;
+}

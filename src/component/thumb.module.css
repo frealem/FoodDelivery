@@ -1,0 +1,42 @@
+.list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding:0;
+}
+.list li a{
+    height: 25rem;
+    width:22rem;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .25);
+    border-radius: 1rem;
+    margin:0.5rem;
+    display:flex;
+    flex-direction:column;
+    overflow: hidden;
+    color:#362417;
+    text-decoration: none;
+}
+.image{
+    object-fit:cover;
+    height:15rem;
+}
+.content{
+    margin-top: 0.1rem;
+    padding:0.5rem 1rem;
+    position: relative;
+    height: 6rem;
+    font-size: 1.2rem;
+}
+.foodPrice{
+    margin-bottom: 10px;
+}
+.not i{
+    color:#ddd;
+}
+.favorite i{
+    color:coral;
+    margin-left:20px;
+    margin-bottom:10px;
+}

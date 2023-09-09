@@ -1,0 +1,60 @@
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    margin:1.5rem;
+    margin-top:0.5rem;
+}
+.list{
+    display:flex;
+    flex-direction:column;
+    flex:3 0;
+    justify-content: space-evenly;
+    border:1px solid brown;
+    border-radius:1rem;
+    list-style-type:none;
+    margin:0.5rem;
+    padding:0;
+}
+.list li{
+    display:flex;
+justify-content: space-around;
+align-items:center;
+flex-wrap:wrap;
+border-bottom:1px solid #ddd
+}
+.list li:last-child{
+border:none;
+}
+.list li img{
+    width:5rem;
+    height: 5rem;
+    border-radius:100rem;
+    object-fit:cover;
+}
+.list li div{
+    padding:1rem;
+}
+.list li div:not(:first-child){
+    flex-basis: 18%;
+}
+.list li select{
+    width:3rem;
+    outline:none;
+    border:none;
+    border-bottom:1px solid lightgray ;
+    font-size:1.1rem;
+    font-weight:100;
+}
+.list .removebutton{
+    border-radius:1rem;
+    border:none;
+    padding:0.5rem;
+    color:brown;
+    opacity: 0.7;
+    outline:none;
+}
+.list .removebutton:hover{
+    opacity: 1;
+    cursor: pointer;
+}

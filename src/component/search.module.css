@@ -1,0 +1,25 @@
+.searchButton{
+    margin:10px;
+    background-color:orange;
+    width:120px;
+    font-size: larger;
+    font-weight: bolder;
+    height: 30px;
+    color: orangered;
+    border-radius: 8px;
+    border-color:orange ;
+   
+}
+.searchButton:hover{
+    background-color: orangered;
+   color:orange;
+    border-color:orange;
+}
+input{
+margin: 15px;
+border-color:orange;
+border-width: 4px;
+height: 20px;
+width:300px;
+color: orangered;
+}
